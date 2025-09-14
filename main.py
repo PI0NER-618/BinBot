@@ -3,7 +3,6 @@ from binance import Client, enums
 from decimal import Decimal
 import pandas as pd
 import requests
-import talib
 import json
 import time
 
@@ -85,3 +84,4 @@ while True:
         order_operation(symbol, "BUY", qty)
 
     time.sleep(2)
+
