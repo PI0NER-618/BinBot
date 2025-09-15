@@ -50,7 +50,7 @@ def order_operation(symbol, side, quantity):
 
 
 while True:
-    symbol = "YGGUSDT"
+    symbol = "ENAUSDT"
     # Завантаження даних з Binance (BTCUSDT, 1h, 200 свічок)
     url = "https://api.binance.com/api/v3/klines"
     params = {
@@ -147,3 +147,4 @@ while True:
     #         print('Так а шо, треба родвать, а нема шо ( ')
 
     time.sleep(2)
+
